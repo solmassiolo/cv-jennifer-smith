@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9889; Jennifer Smith</title>
+    <script src="https://kit.fontawesome.com/486dc621a7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="site-nav grid">
+        <h1 class="sun"><mark>Jennifer Smith</mark></h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="home grid">
+        <div class="welcome-text">
+            <h2><span class="typed"></span></h2>
+
+            <div id="cadenas-texto">
+                <p>&#128075; &#128105; <i class="saludo">Hola</i></p>
+                <p>&#128075; &#128105; <i class="saludo">Hello</i></p>
+                <p>&#128075; &#128105; <i class="saludo">Ciao</i></p>
+                <p>&#128075; &#128105; <i class="saludo">Bonjour</i></p>
+            </div>
+            <p class="leading"> Soy <strong>Jennifer Smith</strong> y hago diseño web, diseño gráfico y diseño UX/UI desde Buenos Aires, Argentina. Apasionada por crear experiencias digitales inolvidables y hermosas.   
+            </p>
+            <a download="cv-jennifer-smith" href="img/cv-jennifer-smith.pdf" class="button" target="_blank">Descargar CV</a>
+        </div>
+        <div class="welcome-img">
+            <img src="img/anne-peres-unsplash.jpg" alt="Jennifer Smith">
+        </div>
+    </section>
+    <section id="services">
+        <h3>Hago cosas creativas y maravillosas</h3>
+        <div class="projects grid">
+            <a href="https://www.behance.net" target="_blank">
+                <img src="img/maria-oswalt-unsplash.jpg" alt="Hago arte">
+                <h4>Hago algo de arte</h4>
+            </a>
+            <a href="https://github.com" target="_blank">
+                <img src="img/balazs-ketyi-unsplash.jpg" alt="Desarrollo aplicaciones">
+                <h4>Desarrollo algunas aplicaciones</h4>
+            </a>
+            <a href="https://www.behance.net" target="_blank">
+                <img src="img/victoria-knopf-unsplash.jpg" alt="Hago diseño 3D">
+                <h4>Puedo hacer diseño 3D</h4>
+            </a>
+        </div>
+    </section>
+    <section id="skills">
+        <h3>Uso estas herramientas</h3>
+        <div class="container">
+          <div class="bar learning" data-skill="JavaScript"></div>
+          <div class="bar back basic" data-skill="CSS3"></div>
+          <div class="bar back intermediate" data-skill="HTML5"></div>
+          <div class="bar front advanced" data-skill="Illustrator"></div>
+          <div class="bar front expert" data-skill="Photoshop"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <h3>Contáctame</h3>
+        <p class="leading">Claro... Puedo tomarme un tiempo para contestar tus dudas.</p>
+        <form action="https://formspree.io/f/mnqwwgwn" method="post" target="_blank"> 
+            <input type="text" name="fullname" placeholder="Nombre" required>
+            <input type="email" name="E-mail" placeholder="E-mail" required>
+            <input type="tel" name="tel" placeholder="Teléfono">
+            <textarea name="message" id="" placeholder="Tu mensaje"cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" class="button">
+            <input type="reset" value="Borrar" class="button">
+        </form>
+    </section>
+    <footer>
+        <div class="grid">
+            <p class="copyright">&#169;2023 - Sol Massiolo &#9889;</p>
+            <ul class="social">
+                <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github-alt">
+                </i></a></li>
+                <li><a href="https://www.behance.net" target="_blank"></i><i class="fa-brands fa-behance"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
